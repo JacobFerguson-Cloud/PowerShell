@@ -1,4 +1,4 @@
-$folders = Get-ChildItem -Path "C:\Users"
+$folders = Get-ChildItem -Path "C:\DATA"
 
 $largeFolders = @()
 
@@ -20,6 +20,7 @@ foreach ($folder in $folders) {
 
     }
 }
+
 
 
 
